@@ -1,0 +1,5 @@
+export const NONE = "NONE"
+export const APP = "APP"
+export const SMS = "SMS"
+export const WAIT = "WAIT"
+export const INPUT = "INPUT"

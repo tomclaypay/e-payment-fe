@@ -1,0 +1,36 @@
+$--font-path: "~element-ui/lib/theme-chalk/fonts";
+@import "~element-ui/packages/theme-chalk/src/input";
+@import "~element-ui/packages/theme-chalk/src/input-number";
+@import "~element-ui/packages/theme-chalk/src/form";
+@import "~element-ui/packages/theme-chalk/src/form-item";
+@import "~element-ui/packages/theme-chalk/src/notification";
+@import "~element-ui/packages/theme-chalk/src/icon";
+@import "~element-ui/packages/theme-chalk/src/loading";
+@import "~element-ui/packages/theme-chalk/src/steps";
+@import "~element-ui/packages/theme-chalk/src/step";
+
+.el-loading-mask {
+  background-color: rgba(255, 255, 255, 0.6);
+
+  .el-loading-spinner {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed;
+
+    .circular {
+      margin: auto;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.el-input input {
+  height: 56px;
+}
